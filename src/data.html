@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=9" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+	<title>DS jet</title>
+	<link rel="stylesheet" type="text/css" href="css/reset.css">
+	<link href="https://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://cdn.bootcss.com/bootstrap/2.3.2/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="https://cdn.bootcss.com/Swiper/2.7.0/idangerous.swiper.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+    <!--头部-->
+    <div class="head">
+        <!-- navbar-fixed-top-->
+        <div class="navbar navbar-inverse">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="brand" href="#"><img src="images/logo.png"></a>
+                    <div class="nav-collapse collapse clearfix">
+                        <ul class="nav">
+                            <li><a href="#">关于我们</a></li>
+                            <li><a href="#">行业应用</a></li>
+                            <li data-url="product.html"><a href="#">产品中心</a></li>
+                            <li><a href="#">服务支持 </a></li>
+                            <li data-url="news.html"><a href="#">新闻活动</a></li>
+                            <li><a href="#">联系我们</a></li>
+                            <!-- <li class="dropdown">
+                              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                              <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li class="divider"></li>
+                                <li class="nav-header">Nav header</li>
+                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">One more separated link</a></li>
+                              </ul>
+                            </li> -->
+                        </ul>
+                        <img src="images/fgx.png" alt="" class="fgx">
+                        <!--<form class="navbar-form pull-right">
+                          <input class="span2" type="text" placeholder="Email">
+                          <input class="span2" type="password" placeholder="Password">
+                          <button type="submit" class="btn">Sign in</button>
+                        </form>-->
+                        <div class="bdsharebuttonbox"><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_qzone" data-cmd="qzone" title="分享到QQ空间"></a></div>
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                    </div><!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="side">
+        <div class="icon back-to-top"><img src="images/back-to-top.png" alt=""></div>
+        <div class="icon telephone"><img src="images/telephone.png" alt=""></div>
+        <div class="icon two-dimension-code"><img src="images/two-dimension-code.png" alt=""></div>
+    </div>
+
+    <!--主要内容-->
+    <div class="main-content data">
+        <div class="stickUp" style="height: auto !important;background-color:transparent;">
+            <div class="navbar navbar-inverse navbar-static-top">
+                <div class="container clearfix">
+                    <div class="cntItem pull-left active">
+                        <i class="icon icon1"></i>
+                        <span>答案</span>
+                    </div>
+                    <div class="cntItem pull-left">
+                        <i class="icon icon2"></i>
+                        <span>文档</span>
+                    </div>
+                    <div class="cntItem pull-left">
+                        <i class="icon icon3"></i>
+                        <span>视频</span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container module active">
+            <h2>问答</h2>
+            <div class="qaBox">
+                <div class="qa active">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>什么是干冰？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>什么是干冰喷射？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>如何贮存干冰？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>为什么要用干冰取代传统喷射介质？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>干冰喷射是如何工作的？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>对污垢产生什么影响？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>污垢或干冰颗粒是否会飞溅？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>干冰喷射是否会损伤基体？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>是否可以使用 Cold Jet® 干冰喷射来清洁生产线上温度较高的工具？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>干冰喷射是否会冷却基体？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>温度下降是否会损伤热作模具？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+                <div class="qa">
+                    <div class="ques">
+                        <img src="images/answer-red.png" alt="">
+                        <span>此过程是否会产生冷凝？</span>
+                        <div class="switch"></div>
+                    </div>
+                    <div class="ans">
+                        干冰”就是固态“二氧化碳 (CO2)”。 CO2 是一种存在于空气中的无色、无味、无嗅的气体。
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container module">
+            <h2>DS Jet 文档</h2>
+
+            <h3>产品</h3>
+            <div class="row">
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>应用</h3>
+            <div class="row">
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media file">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/file.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">Aero 40FP</h4>
+                            <button>下载</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container module">
+            <h2>DS Jet 视频</h2>
+            <h3>干冰清洁视频</h3>
+            <div class="row">
+                <div class="span4" data-src="http://player.youku.com/embed/XMjk3NTMxMTY3Mg==">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4" data-src="http://v.youku.com/v_show/id_XMzA0NDU0NzQ3Mg==">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            <span>加工和包装设备清洁概述</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            <span>加工和包装设备清洁概述</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            <span>加工和包装设备清洁概述</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <h3>干冰制造视频</h3>
+            <div class="row">
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            <span>加工和包装设备清洁概述</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            <span>加工和包装设备清洁概述</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            加工和包装设备清洁概述
+                        </div>
+                    </div>
+                </div>
+                <div class="span4">
+                    <div class="media">
+                        <a class="pull-left" href="#">
+                            <img class="media-object" src="images/v1.png">
+                        </a>
+                        <div class="media-body">
+                            <h4 class="media-heading">食品加工</h4>
+                            <span>加工和包装设备清洁概述</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--底部-->
+    <div class="foot">
+        <div class="foot-content">
+            <div class="line"></div>
+            <div class="container">
+                <div class="row">
+                    <dl class="span2 links-item clearfix">
+                        <dt>干冰喷射机</dt>
+                        <dd><a href="">干冰清洗机 Aero 40FP</a></dd>
+                        <dd><a href="">干冰清洗机 Aero 80FP</a></dd>
+                        <dd><a href="">干冰清洗机I³</a></dd>
+                        <dd><a href="">Aero C100</a></dd>
+                        <dd><a href="">IceBlast KG6</a></dd>
+                        <dd><a href=""><Xcel 6/a></dd>
+                        <dd><a href="">Xtreme 40</a></dd>
+                    </dl>
+                    <dl class="span2 links-item clearfix">
+                        <dt>干冰生产设备</dt>
+                        <dd><a href="">即插即用的移动式干冰生产系统</a></dd>
+                        <dd><a href="">COMBI 120H 清洗造冰一体机</a></dd>
+                        <dd><a href="">i³ IcePress压块机</a></dd>
+                        <dd><a href="">PR120H 干冰造粒机</a></dd>
+                        <dd><a href="">PR350H 干冰造粒机</a></dd>
+                        <dd><a href="">PR750H 干冰造粒机</a></dd>
+                        <dd><a href="">SL1000H 干冰造块机</a></dd>
+                        <dd><a href="">造粒机模板</a></dd>
+                    </dl>
+                    <dl class="span2 links-item clearfix">
+                        <dt>干冰喷射附件</dt>
+                        <dd><a href="">中等流量喷嘴</a></dd>
+                        <dd><a href="">专用喷嘴</a></dd>
+                        <dd><a href="">低流量喷嘴</a></dd>
+                        <dd><a href="">高流量喷嘴</a></dd>
+                        <dd><a href="">颗粒尺寸可调节喷嘴</a></dd>
+                        <dd><a href="">PR750H 干冰造粒机</a></dd>
+                    </dl>
+                    <div class="span5 consult pull-right clearfix">
+                        <div class="title">客服咨询</div>
+                        <div class="phone">
+                            <img src="images/phone.png" alt="">
+                            <span>免费热线: 400-602-1213</span>
+                            <div class="detail">周一至周五：09:00-17:30</div>
+                        </div>
+                        <div class="email">
+                            <img src="images/email.png" alt="">
+                            <span>E-mail: info@dsjet.com</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="gray-line"></div>
+                <div class="row resource">
+                    <div class="span2">
+                        <div class="icon">
+                            <img src="images/answer.png" alt="">
+                        </div>
+                        <a class="text" href="">答案</a>
+                    </div>
+                    <div class="span2">
+                        <div class="icon">
+                            <img src="images/files.png" alt="">
+                        </div>
+                        <a class="text" href="">文档</a>
+                    </div>
+                    <div class="span2">
+                        <div class="icon">
+                            <img src="images/video.png" alt="">
+                        </div>
+                        <a class="text" href="">视频</a>
+                    </div>
+                    <div class="span3 erweima pull-right">
+                        <img src="images/erweima.png" alt="">
+                        <div>扫码关注官方微信</div>
+                    </div>
+                </div>
+                <div class="gray-line"></div>
+                <div class="clearfix">
+                    <div class="copyright">© 2013-2014 迪史洁(上海)清洗设备有限公司. All rights reserved.</div>
+                    <div class="links">
+                        <a href="">首页</a>|
+                        <a href="">网站地图</a>|
+                        <a href="">法律</a>|
+                        <a href="">隐私政策</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bf">
+        <div class="shade"></div>
+        <div class="video">
+            <div class="clsbtn"></div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/bootstrap/2.3.2/js/bootstrap.min.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/2.7.0/idangerous.swiper.min.js"></script>
+<script src="js/query.js"></script>
+<script src="js/paging.js"></script>
+<script src="https://cdn.bootcss.com/Swiper/2.7.0/idangerous.swiper.min.js"></script>
+<!--[if lt IE 9]>
+  <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+  <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+<script>
+$(function(){
+    /*页面滚动侧边栏的显示隐藏*/
+    $(window).scroll(function () {
+        var topDis = $(this).scrollTop()
+        if(topDis >= 200){
+            $(".side").show();
+        }else{
+            $(".side").hide();
+        }
+
+        if(topDis >= $(".head").height()){
+            $(".stickUp").css({
+                width: '100%',
+                position: 'fixed',
+                left: 0,
+                top:0,
+                zIndex: 200
+            });
+        }else{
+            $(".stickUp").css({
+                position: 'static'
+            });
+        }
+    })
+
+    /*侧边栏按钮点击效果*/
+    $(".side .back-to-top").click(function(){
+        $('body, html').animate({scrollTop:0},500);
+    })
+    $(".side .telephone, .side .two-dimension-code").click(function(){
+        $('body, html').animate({scrollTop:10000},500);
+    })
+
+
+    /*切换内容*/
+    $(".cntItem").click(function(){
+        var index = $(this).index()
+        $(".cntItem").removeClass("active").eq(index).addClass("active")
+        $(".module").removeClass("active").eq(index).addClass("active")
+    })
+
+    /*打开关闭视屏播放*/
+    $(".data .module .span4").click(function(){
+        $(".bf").show().children(".video").append('<embed src="' + $(this).data("src") +'" height="550" width="960">')
+        $("html,body").css("overflow","hidden")
+    })
+    $(".clsbtn").click(function(){
+        $(".bf").hide().children(".video").children("embed").remove();
+        $("html,body").css("overflow","auto")
+    })
+
+    /*打开一条问答*/
+    $(".switch").click(function(){
+        if($(this).parents(".qa").hasClass("active")){
+            $(this).parents(".qa").removeClass("active")
+        }else{
+            $(this).parents(".qa").addClass("active")
+        }
+    })
+
+})
+</script>
+</html>
