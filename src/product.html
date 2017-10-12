@@ -855,17 +855,17 @@
         /*默认载入第一个产品列表页,并开启楼层导航*/
         //$(".tab-contents").load("product-list1.html");
         $(".product-list1").show()
-        floorNav('fl_l0','fl_r');
-        /*floorNav('fl_l1','fl_r');
-        floorNav('fl_l2','fl_r');
-        floorNav('fl_l3','fl_r');*/
+        floorNav('fl_l0','product-list1');
+        floorNav('fl_l1','product-list2');
+        floorNav('fl_l2','product-list3');
+        floorNav('fl_l3','product-list4');
         var mySwiper = new Swiper('.swiper-container0',{
             slidesPerView: 'auto',
             onTouchMove: function(swiper){
                 $(".swiper-container").addClass("move");
             }
         })
-        /*var mySwiper = new Swiper('.swiper-container1',{
+        var mySwiper = new Swiper('.swiper-container1',{
             slidesPerView: 'auto',
             onTouchMove: function(swiper){
                 $(".swiper-container1").addClass("move");
@@ -882,7 +882,7 @@
             onTouchMove: function(swiper){
                 $(".swiper-container3").addClass("move");
             }
-        })*/
+        })
 
         /*点击选项卡进行切换产品列表*/
         $('#myTab a').click(function (e) {
@@ -894,23 +894,13 @@
 
             $(".product-list").hide()
             $(".product-list" + (index + 1)).show()
-            floorNav('fl_l' + index,'fl_r');
+            floorNav('fl_l' + index, ".product-list" + (index + 1));
             var mySwiper = new Swiper('.swiper-container' + index,{
                 slidesPerView: 'auto',
                 onTouchMove: function(swiper){
                     $(".swiper-container" + index).addClass("move");
                 }
             })
-            /*$(".tab-contents").load("product-list" + ".html",function () {
-                floorNav('fl_l' + index,'fl_r');
-                var mySwiper = new Swiper('.swiper-container' + index,{
-                    slidesPerView: 'auto',
-                    onTouchMove: function(swiper){
-                        $(".swiper-container" + index).addClass("move");
-                    }
-                })
-
-            });*/
             $(window).scrollTop(0);
         })
     })
