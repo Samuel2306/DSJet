@@ -895,12 +895,7 @@
             $(".product-list").hide()
             $(".product-list" + (index + 1)).show()
             floorNav('fl_l' + index, ".product-list" + (index + 1));
-            var mySwiper = new Swiper('.swiper-container' + index,{
-                slidesPerView: 'auto',
-                onTouchMove: function(swiper){
-                    $(".swiper-container" + index).addClass("move");
-                }
-            })
+            $(".swiper-container" + index).find(".swiper-slide").removeClass("active").eq(0).addClass("active")
             $(window).scrollTop(0);
         })
     })
