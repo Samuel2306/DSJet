@@ -913,6 +913,9 @@
     border: none;
     box-shadow: none; }
 
+.products .product-list {
+  display: none; }
+
 .products .product-module {
   background-color: #ededed;
   padding-bottom: 25px; }

@@ -1034,6 +1034,9 @@ $head-height:80px;
   }
 }
 .products{
+  .product-list{
+    display: none;
+  }
   .product-module{
     background-color: #ededed;
     padding-bottom: 25px;
