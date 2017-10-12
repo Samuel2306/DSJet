@@ -792,7 +792,8 @@
             margin-top: 4px;
             display: inline-block;
             width: 200px;
-            text-align: left; }
+            text-align: left;
+            color: #fff; }
             @media (max-width: 870px) {
               .stickUp .nav-tabs li a span.name {
                 font-size: 14px !important; } }
@@ -808,7 +809,8 @@
           .stickUp .nav-tabs li a span.English {
             font-size: 12px;
             display: inline-block;
-            text-align: left; }
+            text-align: left;
+            color: #fff; }
             @media (max-width: 870px) {
               .stickUp .nav-tabs li a span.English {
                 overflow: hidden;
@@ -844,6 +846,10 @@
         background-color: #ededed; }
         .stickUp .nav-tabs li.active a .icon {
           border: 1px solid #484544 !important; }
+        .stickUp .nav-tabs li.active a .name {
+          color: #3e3a39; }
+        .stickUp .nav-tabs li.active a .English {
+          color: #3e3a39; }
   .stickUp .collapse {
     height: auto; }
   .stickUp .tab-pane.swiper-container {

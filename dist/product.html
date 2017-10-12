@@ -138,7 +138,12 @@
 
     <!-- START THE CONTENT -->
     <div id="contents" class="products tab-contents fl_r">
+        <div class="product-list1">
 
+        </div>
+        <div class="product-list2"></div>
+        <div class="product-list3"></div>
+        <div class="product-list4"></div>
     </div>
 </div>
 
@@ -314,6 +319,8 @@
             e.preventDefault();
             $(this).tab('show');
             var index = $(this).parent("li").index();
+
+
             $(".tab-contents").load("product-list" + (index + 1) + ".html",function () {
                 floorNav('fl_l' + index,'fl_r');
                 var mySwiper = new Swiper('.swiper-container' + index,{

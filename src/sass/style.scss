@@ -902,6 +902,7 @@ $head-height:80px;
             display: inline-block;
             width: 200px;
             text-align: left;
+            color: $white;
             @media (max-width:870px){
               font-size: 14px !important;
             }
@@ -914,6 +915,7 @@ $head-height:80px;
             font-size: 12px;
             display: inline-block;
             text-align: left;
+            color: $white;
             @media (max-width:870px){
               @include ellipsis;
             }
@@ -954,6 +956,12 @@ $head-height:80px;
           background-color: #ededed;
           .icon{
             border: 1px solid #484544 !important;
+          }
+          .name{
+            color: $default-color;
+          }
+          .English{
+            color: $default-color;
           }
         }
       }
